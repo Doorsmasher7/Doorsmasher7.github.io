@@ -1,0 +1,3 @@
+The purpose of this project was to allow students to become more familiar with Object-oriented programming practices and ensuring that we fully understood how to best create an app like this.  The project given was to create a property trading app where users could log on, view available houses, list their own and purchase/trade.
+
+The underlying theory associated with this project was on good class structure and how to utilize inheritance to reduce the amount of code that needs to be written for a given application.
