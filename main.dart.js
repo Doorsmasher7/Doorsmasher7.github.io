@@ -1016,13 +1016,13 @@ r=Math.abs(k)
 q=b.b
 p=b.c
 if(p==null)p=0
-if(q===B.O&&p>0){q=p/2
+if(q===B.N&&p>0){q=p/2
 m-=q
 j-=q
 s=Math.max(0,s-p)
 r=Math.max(0,r-p)}if(m!==o||j!==l||s!==n||r!==k)return new A.A(m,j,m+s,j+r)
 return a},
-xB(a,b,c,d){var s,r,q,p,o,n,m,l,k,j,i=A.aJ(self.document,c),h=b.b===B.O,g=b.c
+xB(a,b,c,d){var s,r,q,p,o,n,m,l,k,j,i=A.aJ(self.document,c),h=b.b===B.N,g=b.c
 if(g==null)g=0
 if(d.nG(0)){s=a.a
 r=a.b
@@ -2100,7 +2100,7 @@ s.toString
 if(s>=48&&s<=57)return B.dp
 if(s>=1632&&s<=1641)return B.iZ
 switch($.a8P().l1(s)){case B.n:return B.iY
-case B.P:return B.iZ
+case B.O:return B.iZ
 case null:return B.f6}},
 xI(a,b){var s
 if(b<0||b>=a.length)return null
@@ -13150,7 +13150,7 @@ s.h4(0,o,r)
 q=b.c
 s.cQ(0,q,r)
 p=f.b
-if(p===0)n.sci(0,B.O)
+if(p===0)n.sci(0,B.N)
 else{n.sci(0,B.as)
 r+=p
 s.cQ(0,q-e.b,r)
@@ -13164,7 +13164,7 @@ s.h4(0,o,r)
 q=b.d
 s.cQ(0,o,q)
 p=e.b
-if(p===0)n.sci(0,B.O)
+if(p===0)n.sci(0,B.N)
 else{n.sci(0,B.as)
 o-=p
 s.cQ(0,o,q-c.b)
@@ -13178,7 +13178,7 @@ s.h4(0,o,r)
 q=b.a
 s.cQ(0,q,r)
 p=c.b
-if(p===0)n.sci(0,B.O)
+if(p===0)n.sci(0,B.N)
 else{n.sci(0,B.as)
 r-=p
 s.cQ(0,q+d.b,r)
@@ -13192,7 +13192,7 @@ s.h4(0,o,r)
 q=b.b
 s.cQ(0,o,q)
 p=d.b
-if(p===0)n.sci(0,B.O)
+if(p===0)n.sci(0,B.N)
 else{n.sci(0,B.as)
 o+=p
 s.cQ(0,o,q+f.b)
@@ -13231,7 +13231,7 @@ return new A.dc(A.ah(a.a,b.a,c),A.ah(a.b,B.q,s),A.ah(a.c,b.d,c),A.ah(q,B.q,s))}q
 return new A.dv(A.ah(a.a,b.a,c),A.ah(B.q,s,q),A.ah(B.q,b.c,q),A.ah(a.c,b.d,c))}throw A.d(A.a6u(A.a([A.Ao("BoxBorder.lerp can only interpolate Border and BorderDirectional classes."),A.bh("BoxBorder.lerp() was called with two objects of type "+J.F(a).k(0)+" and "+J.F(b).k(0)+":\n  "+A.h(a)+"\n  "+A.h(b)+"\nHowever, only Border and BorderDirectional classes are supported by this method."),A.Qy("For a more general interpolation method, consider using ShapeBorder.lerp instead.")],t.D)))},
 a9d(a,b,c,d){var s,r,q=$.am().b5()
 q.sab(0,c.a)
-if(c.b===0){q.sci(0,B.O)
+if(c.b===0){q.sci(0,B.N)
 q.shn(0)
 a.c5(d.dA(b),q)}else{s=d.dA(b)
 r=s.de(-c.gcV())
@@ -14273,7 +14273,7 @@ _.fr=null
 _.a=0
 _.c=_.b=null},
 ads(a,b,c){switch(a.a){case 0:switch(b){case B.n:return!0
-case B.P:return!1
+case B.O:return!1
 case null:return null}break
 case 1:switch(c){case B.hk:return!0
 case B.KB:return!1
@@ -19455,7 +19455,7 @@ this.b=b},
 a5j(a){var s=null
 return A.bm(s,A.c2(a,A.bR(s,s,A.a1(255,100,136,202),s,B.uc,s,s,s,s,s,s,45,s,s,B.aQ,s,s,!0,s,s,s,s,s,s,s,s)),s,s,s,s,s,s)},
 mb(a,b){var s=null,r=A.c2(b,A.bR(s,s,B.i,s,s,s,s,s,s,s,s,20,s,s,B.aQ,s,s,!0,s,s,s,s,s,s,s,s))
-return A.bm(s,A.bm(s,new A.Ay(new A.a4P(a),s,s,s,A.a6r(s,s,s,s,s,s,s,s,s,s,s,s,s,B.N,s,s,s,s,s,s),B.J,s,!1,s,r,s),s,s,s,s,s,s),s,s,50,s,s,200)},
+return A.bm(s,A.bm(s,new A.Ay(new A.a4P(a),s,s,s,A.a6r(s,s,s,s,s,s,s,s,s,s,s,s,s,B.P,s,s,s,s,s,s),B.J,s,!1,s,r,s),s,s,s,s,s,s),s,s,50,s,s,200)},
 eE(a){var s=null,r=A.aR(s,s,20),q=new A.bL(A.a1(167,0,0,0),1,B.a8,-1),p=A.pA(new A.aH(20,20))
 return A.c0(A.a([r,A.bm(B.a5,new A.hv(new A.aU(30,5,30,5),A.c2(a,A.bR(s,s,A.a1(167,0,0,0),s,s,s,s,s,s,s,s,20,s,s,s,s,s,!0,s,s,s,s,s,s,s,s)),s),s,new A.fd(s,s,new A.dc(q,q,q,q),p,s,s,B.bb),s,s,s,s),A.aR(s,s,20)],t.p),B.p,B.L,B.D)},
 dX(a){var s=null
@@ -19474,7 +19474,7 @@ this.b=b},
 a4g:function a4g(a,b){this.a=a
 this.b=b},
 MX(a){var s=null
-return A.bm(B.db,A.cv(A.a([A.aR(s,30,s),A.c2(a,A.bR(s,s,B.N,s,s,s,s,s,s,s,s,26,s,s,s,s,s,!0,s,s,s,s,s,s,s,s)),A.bm(s,s,A.a1(255,172,198,243),s,3,s,s,900),A.aR(s,5,s)],t.p),B.aa,B.B),s,s,s,s,s,s)},
+return A.bm(B.db,A.cv(A.a([A.aR(s,30,s),A.c2(a,A.bR(s,s,B.P,s,s,s,s,s,s,s,s,26,s,s,s,s,s,!0,s,s,s,s,s,s,s,s)),A.bm(s,s,A.a1(255,172,198,243),s,3,s,s,900),A.aR(s,5,s)],t.p),B.aa,B.B),s,s,s,s,s,s)},
 MY(a,b){var s=null
 return A.c0(A.a([A.bm(B.db,A.c2(a,s),s,s,s,s,s,150),A.aR(s,s,5),A.bm(B.db,A.c2(b,s),s,s,s,s,s,600)],t.p),B.p,B.B,B.D)},
 pe:function pe(a){this.a=a},
@@ -20310,7 +20310,7 @@ if(q==null)r.kl(r.gav(r),p.a(a))
 else r.UP(r.gav(r),p.a(a),-q.a,-q.b)
 p=r.gbA()
 s=a.b
-if(b===B.O)p.a.stroke()
+if(b===B.N)p.a.stroke()
 else{p=p.a
 if(s===B.aT)A.Px(p,null)
 else A.Px(p,"evenodd")}},
@@ -20387,7 +20387,7 @@ r=s.Q
 if(r!=null){s.a.translate(-r.a,-r.b)
 s.Q=null}},
 eO(a){var s=this.a
-if(a===B.O)s.stroke()
+if(a===B.N)s.stroke()
 else A.Px(s,null)},
 fq(a){var s,r=this,q=r.a
 A.Py(q,"")
@@ -22797,7 +22797,7 @@ if(s.y!=null)s.Pk(s.gav(s),a)},
 f6(a,b){this.d.f6(0,b)},
 pS(a){var s,r=this
 if(r.ax)return!1
-if(!r.ch.d)if(!r.at)s=r.as&&r.d.y==null&&a.x==null&&a.w==null&&a.b!==B.O
+if(!r.ch.d)if(!r.at)s=r.as&&r.d.y==null&&a.x==null&&a.w==null&&a.b!==B.N
 else s=!0
 else s=!0
 return s},
@@ -22984,7 +22984,7 @@ A.x(n,i,["overflow",p==null?t.K.a(p):p])
 p=self.document.createElementNS("http://www.w3.org/2000/svg","path")
 n.append(p)
 m=b.b
-if(m!==B.O)if(m!==B.as){m=b.c
+if(m!==B.N)if(m!==B.as){m=b.c
 m=m!==0&&m!=null}else m=!1
 else m=!0
 l=b.r
@@ -23010,12 +23010,12 @@ p=A.xC(b.r)
 p.toString
 k=b.x.b
 m=$.br()
-if(m===B.r&&s!==B.O)A.l(n.style,"box-shadow","0px 0px "+A.h(k*2)+"px "+p)
+if(m===B.r&&s!==B.N)A.l(n.style,"box-shadow","0px 0px "+A.h(k*2)+"px "+p)
 else A.l(n.style,"filter","blur("+A.h(k)+"px)")}j.me(n,B.h,b)}else{s=b.w!=null?a.dE(0):null
 p=j.d
 p.gbA().hj(b,s)
 s=b.b
-if(s==null&&b.c!=null)p.cm(a,B.O)
+if(s==null&&b.c!=null)p.cm(a,B.N)
 else p.cm(a,s)
 p.gbA().hQ()}},
 fV(a,b,c,d){var s,r,q,p,o,n=this.d,m=A.apl(a.dE(0),c)
@@ -23157,7 +23157,7 @@ q.e=q.d=q.y=null}this.as=!0
 this.e=null},
 Gj(a,b,c,d,e){var s,r,q,p,o=this.d,n=o.gav(o)
 if(d!=null){n.save()
-for(o=d.length,s=e===B.O,r=0;r<d.length;d.length===o||(0,A.E)(d),++r){q=d[r]
+for(o=d.length,s=e===B.N,r=0;r<d.length;d.length===o||(0,A.E)(d),++r){q=d[r]
 p=A.cT(q.a)
 if(p==null)p=null
 n.shadowColor=p
@@ -23166,7 +23166,7 @@ p=q.b
 n.shadowOffsetX=p.a
 n.shadowOffsetY=p.b
 if(s)n.strokeText(a,b,c)
-else n.fillText(a,b,c)}n.restore()}if(e===B.O)n.strokeText(a,b,c)
+else n.fillText(a,b,c)}n.restore()}if(e===B.N)n.strokeText(a,b,c)
 else A.ain(n,a,b,c)},
 eH(a,b){var s,r,q,p,o,n,m,l,k=this
 if(a.d&&k.d.y!=null&&!k.as&&!k.ch.d){s=a.w
@@ -23597,7 +23597,7 @@ sFq(a){var s=this
 if(s.b){s.a=s.a.ck(0)
 s.b=!1}s.a.z=a},
 k(a){var s,r=""+"Paint(",q=this.a.b,p=q==null
-if((p?B.as:q)===B.O){r+=(p?B.as:q).k(0)
+if((p?B.as:q)===B.N){r+=(p?B.as:q).k(0)
 q=this.a.c
 p=q==null
 if((p?0:q)!==0)r+=" "+A.h(p?0:q)
@@ -28647,14 +28647,14 @@ if(k.ghJ())continue
 j=k.rZ(a7)
 if(j.length===0)continue
 i=A.aJ(self.document,"flt-span")
-if(k.d===B.P){h=A.a5("rtl")
+if(k.d===B.O){h=A.a5("rtl")
 i.setAttribute.apply(i,["dir",h==null?b0.a(h):h])}h=k.f.a
 g=i.style
 f=h.cy
 e=f==null
 d=e?a8:f.gab(f)
 if(d==null)d=h.a
-if((e?a8:f.gci(f))===B.O){g.setProperty("color","transparent","")
+if((e?a8:f.gci(f))===B.N){g.setProperty("color","transparent","")
 c=e?a8:f.ghn()
 if(c!=null&&c>0)b=c
 else{f=$.bD().x
@@ -29169,7 +29169,7 @@ k===$&&A.c()
 if(a-l<A.ku(n,k,s,m,p.c.a.ax)-a)return new A.bp(o,B.E)
 else return new A.bp(m,B.ai)},
 Tb(a){var s
-if(this.d===B.P){s=this.cK$
+if(this.d===B.O){s=this.cK$
 s===$&&A.c()
 return s+this.cL$-a}return a}}
 A.Ab.prototype={
@@ -29253,7 +29253,7 @@ Ue(a){var s,r,q,p,o,n,m=this,l=null,k=m.a.b.b,j=k==null,i=j?B.n:k
 for(s=a.w,r=l,q=0,p=0,o=0;n=s.length,o<=n;++o){if(o<n){n=s[o].e
 if(n===B.dp){r=l
 continue}if(n===B.f6){if(r==null)r=o
-continue}if((n===B.iY?B.n:B.P)===i){r=l
+continue}if((n===B.iY?B.n:B.O)===i){r=l
 continue}}if(r==null)q+=m.vg(i,o,a,p,q)
 else{q+=m.vg(i,r,a,p,q)
 q+=m.vg(j?B.n:k,o,a,r,q)}if(o<s.length){n=s[o].d
@@ -29327,9 +29327,9 @@ gWF(){var s=this.c-this.w,r=this.d.b
 switch(r.a.a){case 2:return s/2
 case 1:return s
 case 4:r=r.b
-return(r==null?B.n:r)===B.P?s:0
+return(r==null?B.n:r)===B.O?s:0
 case 5:r=r.b
-return(r==null?B.n:r)===B.P?0:s
+return(r==null?B.n:r)===B.O?0:s
 default:return 0}},
 gX0(){var s,r=this.d.b
 if(r.z==null)return!1
@@ -43493,12 +43493,12 @@ return new A.bL(this.a,s,r,-1)},
 hR(){switch(this.c.a){case 1:var s=$.am().b5()
 s.sab(0,this.a)
 s.shn(this.b)
-s.sci(0,B.O)
+s.sci(0,B.N)
 return s
 case 0:s=$.am().b5()
 s.sab(0,B.a1)
 s.shn(0)
-s.sci(0,B.O)
+s.sci(0,B.N)
 return s}},
 gcV(){return this.b*(1-(1+this.d)/2)},
 gjZ(){return this.b*(1+this.d)/2},
@@ -44898,7 +44898,7 @@ p=A.a6Z(g.x,f,14*r,f,f,f,g.y,q,f,e,s,p)
 e=p}return e},
 PQ(){return this.Be(null)},
 grt(){var s,r,q=this,p=q.CW
-if(p==null){p=q.Be(B.P)
+if(p==null){p=q.Be(B.O)
 s=$.am().qj(p)
 p=q.d
 if(p==null)r=null
@@ -47514,7 +47514,7 @@ p=s===r?q:f.p_(new A.bp(r,B.E))
 f=f.L
 o=f.r
 o.toString
-n=s>r!==(B.P===o)
+n=s>r!==(B.O===o)
 m=A.BK(g.gf_().a,g.gf_().b,0)
 m.f7(m)
 o=A.cn(m,q)
@@ -49409,7 +49409,7 @@ m.c.push(k.c)}else --l
 if(l===0){m.toString
 n.push(m)
 m=null}}B.b.fD(n)
-if(r===B.P){s=t.FF
+if(r===B.O){s=t.FF
 n=A.aw(new A.cp(n,s),!0,s.h("bo.E"))}s=A.ad(n).h("i9<1,bQ>")
 return A.aw(new A.i9(n,new A.a2O(),s),!0,s.h("j.E"))},
 Kv(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3=this.c,a4=a3.length
@@ -49417,7 +49417,7 @@ if(a4<=1)return a3
 s=t.S
 r=A.y(s,t.ju)
 q=A.y(s,s)
-for(p=this.b,o=p===B.P,p=p===B.n,n=a4,m=0;m<n;g===a4||(0,A.E)(a3),++m,n=g){l=a3[m]
+for(p=this.b,o=p===B.O,p=p===B.n,n=a4,m=0;m<n;g===a4||(0,A.E)(a3),++m,n=g){l=a3[m]
 r.l(0,l.e,l)
 n=l.w
 k=n.a
@@ -58462,7 +58462,7 @@ if(a){s=$.am().b5()
 r=p.c
 q=p.r
 s.sab(0,A.a1(B.c.bj(255*((r.gn(r)>>>24&255)/255*q.gn(q))),r.gn(r)>>>16&255,r.gn(r)>>>8&255,r.gn(r)&255))
-s.sci(0,B.O)
+s.sci(0,B.N)
 s.shn(1)
 return s}s=$.am().b5()
 r=p.b
@@ -60004,7 +60004,7 @@ $0(){},
 $S:0}
 A.Ej.prototype={
 N(a){var s=this,r=t.bJ.a(s.c),q=r.gn(r)
-if(s.e===B.P)q=new A.u(-q.a,q.b)
+if(s.e===B.O)q=new A.u(-q.a,q.b)
 return new A.AP(q,s.f,s.r,null)}}
 A.DQ.prototype={
 N(a){var s,r,q=null,p=t.m.a(this.c)
@@ -60075,10 +60075,10 @@ aF(){this.cw()
 this.cv()
 this.b3()},
 N(a){var s,r,q=null,p=this.d,o=t.p
-p=A.bm(B.b9,A.c0(A.a([A.dJ("icon_experienceDeisgn",500,""),A.cv(A.a([A.c0(A.a([A.a5j("Experience Design")],o),B.p,B.B,B.D),A.aR(q,20,q),A.c0(A.a([A.eE("Disability Design"),A.eE("Visual Communication"),A.eE("Team work")],o),B.p,B.B,B.D),A.aR(q,20,q),A.c2("Project Overview",A.bR(q,q,B.N,q,q,q,q,q,q,q,q,26,q,q,q,q,q,!0,q,q,q,q,q,q,q,q)),A.aR(q,10,q),A.dX(p),A.c2("Additional Information",A.bR(q,q,B.N,q,q,q,q,q,q,q,q,26,q,q,q,q,q,!0,q,q,q,q,q,q,q,q)),A.aR(q,10,q),A.c0(A.a([A.mb("https://www.youtube.com/watch?v=juDFK2LI62A","Demo Video"),A.aR(q,q,10),A.mb("https://docs.google.com/document/d/1kC5Eum82Al7onBjxLYpGI3snqnx9u7izlPhVWM_IPrI/edit?usp=sharing","Report")],o),B.p,B.B,B.D)],o),B.aa,B.L)],o),B.aa,B.L,B.D),q,q,q,q,q,1800)
-s=A.cv(A.a([A.c2("Project Screenshots",A.bR(q,q,B.N,q,q,q,q,q,q,q,q,26,q,q,q,q,q,!0,q,q,q,q,q,q,q,q)),A.bm(q,q,A.a1(255,172,198,243),q,3,q,q,1800),A.aR(q,5,q),A.c0(A.a([A.dJ("experienceDesign_imageanalysis",600,"Content analysis of Iron-Man poster"),A.dJ("experienceDesign_imageanalysisMTG",600,"Content analysis of Fantasy artwork")],o),B.p,B.L,B.D),A.aR(q,5,q),A.bm(q,q,A.a1(255,172,198,243),q,3,q,q,1800)],o),B.p,B.L)
+p=A.bm(B.b9,A.c0(A.a([A.dJ("icon_experienceDeisgn",500,""),A.cv(A.a([A.c0(A.a([A.a5j("Experience Design")],o),B.p,B.B,B.D),A.aR(q,20,q),A.c0(A.a([A.eE("Disability Design"),A.eE("Visual Communication"),A.eE("Team work")],o),B.p,B.B,B.D),A.aR(q,20,q),A.c2("Project Overview",A.bR(q,q,B.P,q,q,q,q,q,q,q,q,26,q,q,q,q,q,!0,q,q,q,q,q,q,q,q)),A.aR(q,10,q),A.dX(p),A.c2("Additional Information",A.bR(q,q,B.P,q,q,q,q,q,q,q,q,26,q,q,q,q,q,!0,q,q,q,q,q,q,q,q)),A.aR(q,10,q),A.c0(A.a([A.mb("https://www.youtube.com/watch?v=juDFK2LI62A","Demo Video"),A.aR(q,q,10),A.mb("https://docs.google.com/document/d/1kC5Eum82Al7onBjxLYpGI3snqnx9u7izlPhVWM_IPrI/edit?usp=sharing","Report")],o),B.p,B.B,B.D)],o),B.aa,B.L)],o),B.aa,B.L,B.D),q,q,q,q,q,1800)
+s=A.cv(A.a([A.c2("Project Screenshots",A.bR(q,q,B.P,q,q,q,q,q,q,q,q,26,q,q,q,q,q,!0,q,q,q,q,q,q,q,q)),A.bm(q,q,A.a1(255,172,198,243),q,3,q,q,1800),A.aR(q,5,q),A.c0(A.a([A.dJ("experienceDesign_imageanalysis",600,"Content analysis of Iron-Man poster"),A.dJ("experienceDesign_imageanalysisMTG",600,"Content analysis of Fantasy artwork")],o),B.p,B.L,B.D),A.aR(q,5,q),A.bm(q,q,A.a1(255,172,198,243),q,3,q,q,1800)],o),B.p,B.L)
 r=this.e
-return A.cv(A.a([p,s,A.bm(q,A.cv(A.a([A.c2("Report Sample",A.bR(q,q,B.N,q,q,q,q,q,q,q,q,26,q,q,q,q,q,!0,q,q,q,q,q,q,q,q)),A.dX(r)],o),B.p,B.L),q,q,q,q,q,1600)],o),B.p,B.B)}}
+return A.cv(A.a([p,s,A.bm(q,A.cv(A.a([A.c2("Report Sample",A.bR(q,q,B.P,q,q,q,q,q,q,q,q,26,q,q,q,q,q,!0,q,q,q,q,q,q,q,q)),A.dX(r)],o),B.p,B.L),q,q,q,q,q,1600)],o),B.p,B.B)}}
 A.a3T.prototype={
 $0(){this.b.d=this.a.a},
 $S:0}
@@ -60116,10 +60116,10 @@ aF(){this.cw()
 this.cv()
 this.b3()},
 N(a){var s,r,q=null,p=this.d,o=t.p
-p=A.bm(B.b9,A.c0(A.a([A.dJ("icon_UIapp",500,""),A.cv(A.a([A.c0(A.a([A.a5j("UI Project")],o),B.p,B.B,B.D),A.aR(q,20,q),A.c0(A.a([A.eE("System Design"),A.eE("C#"),A.eE("Windows Console App")],o),B.p,B.B,B.D),A.aR(q,20,q),A.c2("Project Overview",A.bR(q,q,B.N,q,q,q,q,q,q,q,q,26,q,q,q,q,q,!0,q,q,q,q,q,q,q,q)),A.aR(q,10,q),A.dX(p),A.c2("Additional Information",A.bR(q,q,B.N,q,q,q,q,q,q,q,q,26,q,q,q,q,q,!0,q,q,q,q,q,q,q,q)),A.aR(q,10,q),A.c0(A.a([A.mb("https://www.youtube.com/watch?v=GPxwV93Q6n8","Demo Video")],o),B.p,B.B,B.D)],o),B.aa,B.L)],o),B.aa,B.L,B.D),q,q,q,q,q,1800)
-s=A.cv(A.a([A.c2("Project Screenshots",A.bR(q,q,B.N,q,q,q,q,q,q,q,q,26,q,q,q,q,q,!0,q,q,q,q,q,q,q,q)),A.bm(q,q,A.a1(255,172,198,243),q,3,q,q,1800),A.c0(A.a([A.dJ("uiproject_UML",1000,"Class Diagram")],o),B.p,B.L,B.D),A.bm(q,q,A.a1(255,172,198,243),q,3,q,q,1800)],o),B.p,B.L)
+p=A.bm(B.b9,A.c0(A.a([A.dJ("icon_UIapp",500,""),A.cv(A.a([A.c0(A.a([A.a5j("UI Project")],o),B.p,B.B,B.D),A.aR(q,20,q),A.c0(A.a([A.eE("System Design"),A.eE("C#"),A.eE("Windows Console App")],o),B.p,B.B,B.D),A.aR(q,20,q),A.c2("Project Overview",A.bR(q,q,B.P,q,q,q,q,q,q,q,q,26,q,q,q,q,q,!0,q,q,q,q,q,q,q,q)),A.aR(q,10,q),A.dX(p),A.c2("Additional Information",A.bR(q,q,B.P,q,q,q,q,q,q,q,q,26,q,q,q,q,q,!0,q,q,q,q,q,q,q,q)),A.aR(q,10,q),A.c0(A.a([A.mb("https://www.youtube.com/watch?v=GPxwV93Q6n8","Demo Video")],o),B.p,B.B,B.D)],o),B.aa,B.L)],o),B.aa,B.L,B.D),q,q,q,q,q,1800)
+s=A.cv(A.a([A.c2("Project Screenshots",A.bR(q,q,B.P,q,q,q,q,q,q,q,q,26,q,q,q,q,q,!0,q,q,q,q,q,q,q,q)),A.bm(q,q,A.a1(255,172,198,243),q,3,q,q,1800),A.c0(A.a([A.dJ("uiproject_UML",1000,"Class Diagram")],o),B.p,B.L,B.D),A.bm(q,q,A.a1(255,172,198,243),q,3,q,q,1800)],o),B.p,B.L)
 r=this.e
-return A.cv(A.a([p,s,A.bm(q,A.cv(A.a([A.c2("Code Sample",A.bR(q,q,B.N,q,q,q,q,q,q,q,q,26,q,q,q,q,q,!0,q,q,q,q,q,q,q,q)),A.dX(r)],o),B.p,B.L),q,q,q,q,q,1600)],o),B.p,B.B)}}
+return A.cv(A.a([p,s,A.bm(q,A.cv(A.a([A.c2("Code Sample",A.bR(q,q,B.P,q,q,q,q,q,q,q,q,26,q,q,q,q,q,!0,q,q,q,q,q,q,q,q)),A.dX(r)],o),B.p,B.L),q,q,q,q,q,1600)],o),B.p,B.B)}}
 A.a37.prototype={
 $0(){this.b.d=this.a.a},
 $S:0}
@@ -60162,10 +60162,10 @@ aF(){this.cw()
 this.cv()
 this.b3()},
 N(a){var s,r,q=null,p=this.d,o=t.p
-p=A.bm(B.b9,A.c0(A.a([A.dJ("icon_mazeApp",500,""),A.cv(A.a([A.c0(A.a([A.a5j("MazeCo Maze App")],o),B.p,B.B,B.D),A.aR(q,20,q),A.c0(A.a([A.eE("MySQL"),A.eE("A-Star"),A.eE("Java"),A.eE("HeidiSQL")],o),B.p,B.B,B.D),A.aR(q,20,q),A.c2("Project Overview",A.bR(q,q,B.N,q,q,q,q,q,q,q,q,26,q,q,q,q,q,!0,q,q,q,q,q,q,q,q)),A.aR(q,10,q),A.dX(p),A.c2("Additional Information",A.bR(q,q,B.N,q,q,q,q,q,q,q,q,26,q,q,q,q,q,!0,q,q,q,q,q,q,q,q)),A.aR(q,10,q),A.c0(A.a([A.mb("https://www.youtube.com/watch?v=J3aMdmDOgdA","Demo Video"),A.aR(q,q,10),A.mb("https://docs.google.com/document/d/1FtXbiuaDgDigVYGrmYonlCkC_VNQeChXSkWVpGmr1TA/edit?usp=sharing","Report")],o),B.p,B.B,B.D)],o),B.aa,B.L)],o),B.aa,B.L,B.D),q,q,q,q,q,1800)
-s=A.cv(A.a([A.c2("Project Screenshots",A.bR(q,q,B.N,q,q,q,q,q,q,q,q,26,q,q,q,q,q,!0,q,q,q,q,q,q,q,q)),A.bm(q,q,A.a1(255,172,198,243),q,3,q,q,1800),A.c0(A.a([A.cv(A.a([A.dJ("mazeapp_mazeUI",500,"App UI"),A.dJ("mazeapp_largeArtMaze",500,"Large maze generation test")],o),B.p,B.B),A.cv(A.a([A.dJ("mazeapp_maze1",500,"Auto-Solve Demo"),A.dJ("mazeapp_generalMaze",500,"General Maze")],o),B.p,B.B),A.dJ("mazeapp_UML",700,"Project UML Diagram")],o),B.aa,B.L,B.D),A.bm(q,q,A.a1(255,172,198,243),q,3,q,q,1800)],o),B.p,B.L)
+p=A.bm(B.b9,A.c0(A.a([A.dJ("icon_mazeApp",500,""),A.cv(A.a([A.c0(A.a([A.a5j("MazeCo Maze App")],o),B.p,B.B,B.D),A.aR(q,20,q),A.c0(A.a([A.eE("MySQL"),A.eE("A-Star"),A.eE("Java"),A.eE("HeidiSQL")],o),B.p,B.B,B.D),A.aR(q,20,q),A.c2("Project Overview",A.bR(q,q,B.P,q,q,q,q,q,q,q,q,26,q,q,q,q,q,!0,q,q,q,q,q,q,q,q)),A.aR(q,10,q),A.dX(p),A.c2("Additional Information",A.bR(q,q,B.P,q,q,q,q,q,q,q,q,26,q,q,q,q,q,!0,q,q,q,q,q,q,q,q)),A.aR(q,10,q),A.c0(A.a([A.mb("https://www.youtube.com/watch?v=J3aMdmDOgdA","Demo Video"),A.aR(q,q,10),A.mb("https://docs.google.com/document/d/1FtXbiuaDgDigVYGrmYonlCkC_VNQeChXSkWVpGmr1TA/edit?usp=sharing","Report")],o),B.p,B.B,B.D)],o),B.aa,B.L)],o),B.aa,B.L,B.D),q,q,q,q,q,1800)
+s=A.cv(A.a([A.c2("Project Screenshots",A.bR(q,q,B.P,q,q,q,q,q,q,q,q,26,q,q,q,q,q,!0,q,q,q,q,q,q,q,q)),A.bm(q,q,A.a1(255,172,198,243),q,3,q,q,1800),A.c0(A.a([A.cv(A.a([A.dJ("mazeapp_mazeUI",500,"App UI"),A.dJ("mazeapp_largeArtMaze",500,"Large maze generation test")],o),B.p,B.B),A.cv(A.a([A.dJ("mazeapp_maze1",500,"Auto-Solve Demo"),A.dJ("mazeapp_generalMaze",500,"General Maze")],o),B.p,B.B),A.dJ("mazeapp_UML",700,"Project UML Diagram")],o),B.aa,B.L,B.D),A.bm(q,q,A.a1(255,172,198,243),q,3,q,q,1800)],o),B.p,B.L)
 r=this.e
-return A.cv(A.a([p,s,A.bm(q,A.cv(A.a([A.c2("Code Sample",A.bR(q,q,B.N,q,q,q,q,q,q,q,q,26,q,q,q,q,q,!0,q,q,q,q,q,q,q,q)),A.dX(r)],o),B.p,B.L),q,q,q,q,q,1600)],o),B.p,B.B)}}
+return A.cv(A.a([p,s,A.bm(q,A.cv(A.a([A.c2("Code Sample",A.bR(q,q,B.P,q,q,q,q,q,q,q,q,26,q,q,q,q,q,!0,q,q,q,q,q,q,q,q)),A.dX(r)],o),B.p,B.L),q,q,q,q,q,1600)],o),B.p,B.B)}}
 A.a4h.prototype={
 $0(){this.b.d=this.a.a},
 $S:0}
@@ -60208,10 +60208,10 @@ aF(){this.cw()
 this.cv()
 this.b3()},
 N(a){var s,r,q=null,p=this.d,o=t.p
-p=A.bm(B.b9,A.c0(A.a([A.dJ("icon_sistafam",500,""),A.cv(A.a([A.c0(A.a([A.a5j("Sistafam - Social Media App")],o),B.p,B.B,B.D),A.aR(q,20,q),A.c0(A.a([A.eE("Flutter"),A.eE("Firebase"),A.eE("JSON"),A.eE("Dart")],o),B.p,B.B,B.D),A.aR(q,20,q),A.c2("Project Overview",A.bR(q,q,B.N,q,q,q,q,q,q,q,q,26,q,q,q,q,q,!0,q,q,q,q,q,q,q,q)),A.aR(q,10,q),A.dX(p),A.aR(q,20,q),A.c2("Additional Information",A.bR(q,q,B.N,q,q,q,q,q,q,q,q,26,q,q,q,q,q,!0,q,q,q,q,q,q,q,q)),A.aR(q,10,q),A.c0(A.a([A.mb("https://www.youtube.com/watch?v=FScfjs8yjkQ","Demo Video"),A.aR(q,q,20),A.mb("https://docs.google.com/document/d/1bTU-Qki1U3HzfvRX8cb58_hLiFkX4ZnU71q8ZVLjCNk/edit?usp=sharing","Report")],o),B.p,B.B,B.D)],o),B.aa,B.L)],o),B.aa,B.L,B.D),q,q,q,q,q,1800)
-s=A.cv(A.a([A.c2("Project Screenshots",A.bR(q,q,B.N,q,q,q,q,q,q,q,q,26,q,q,q,q,q,!0,q,q,q,q,q,q,q,q)),A.bm(q,q,A.a1(255,172,198,243),q,3,q,q,1800),A.aR(q,5,q),A.c0(A.a([A.dJ("sistafam_feed",200,"Feed"),A.dJ("sistafam_groups",200,"Groups"),A.dJ("sistafam_loginpage",200,"Login Screen"),A.dJ("sistafam_UserProfile",200,"Personal Profile")],o),B.p,B.L,B.D),A.aR(q,5,q),A.bm(q,q,A.a1(255,172,198,243),q,3,q,q,1800)],o),B.p,B.B)
+p=A.bm(B.b9,A.c0(A.a([A.dJ("icon_sistafam",500,""),A.cv(A.a([A.c0(A.a([A.a5j("Sistafam - Social Media App")],o),B.p,B.B,B.D),A.aR(q,20,q),A.c0(A.a([A.eE("Flutter"),A.eE("Firebase"),A.eE("JSON"),A.eE("Dart")],o),B.p,B.B,B.D),A.aR(q,20,q),A.c2("Project Overview",A.bR(q,q,B.P,q,q,q,q,q,q,q,q,26,q,q,q,q,q,!0,q,q,q,q,q,q,q,q)),A.aR(q,10,q),A.dX(p),A.aR(q,20,q),A.c2("Additional Information",A.bR(q,q,B.P,q,q,q,q,q,q,q,q,26,q,q,q,q,q,!0,q,q,q,q,q,q,q,q)),A.aR(q,10,q),A.c0(A.a([A.mb("https://www.youtube.com/watch?v=FScfjs8yjkQ","Demo Video"),A.aR(q,q,20),A.mb("https://docs.google.com/document/d/1bTU-Qki1U3HzfvRX8cb58_hLiFkX4ZnU71q8ZVLjCNk/edit?usp=sharing","Report")],o),B.p,B.B,B.D)],o),B.aa,B.L)],o),B.aa,B.L,B.D),q,q,q,q,q,1800)
+s=A.cv(A.a([A.c2("Project Screenshots",A.bR(q,q,B.P,q,q,q,q,q,q,q,q,26,q,q,q,q,q,!0,q,q,q,q,q,q,q,q)),A.bm(q,q,A.a1(255,172,198,243),q,3,q,q,1800),A.aR(q,5,q),A.c0(A.a([A.dJ("sistafam_feed",200,"Feed"),A.dJ("sistafam_groups",200,"Groups"),A.dJ("sistafam_loginpage",200,"Login Screen"),A.dJ("sistafam_UserProfile",200,"Personal Profile")],o),B.p,B.L,B.D),A.aR(q,5,q),A.bm(q,q,A.a1(255,172,198,243),q,3,q,q,1800)],o),B.p,B.B)
 r=this.e
-return A.cv(A.a([p,s,A.bm(q,A.cv(A.a([A.c2("Code Sample",A.bR(q,q,B.N,q,q,q,q,q,q,q,q,26,q,q,q,q,q,!0,q,q,q,q,q,q,q,q)),A.dX(r)],o),B.p,B.L),q,q,q,q,q,1600)],o),B.p,B.B)}}
+return A.cv(A.a([p,s,A.bm(q,A.cv(A.a([A.c2("Code Sample",A.bR(q,q,B.P,q,q,q,q,q,q,q,q,26,q,q,q,q,q,!0,q,q,q,q,q,q,q,q)),A.dX(r)],o),B.p,B.L),q,q,q,q,q,1600)],o),B.p,B.B)}}
 A.a4z.prototype={
 $0(){this.b.d=this.a.a},
 $S:0}
@@ -60234,11 +60234,11 @@ a0Z(a,b){var s=this,r=null,q=s.f,p=t.w,o=t.p,n=s.c,m=s.d
 if(q===a){n.toString
 q=A.cm(n,r,p).w
 m=m.a
-return A.bm(r,A.c0(A.a([A.a9T(A.bm(r,new A.Cm(new A.a40(s,a,b),r,r,r,r,B.J,r,!1,r,A.c2(a,A.bR(r,r,B.N,r,r,r,r,r,r,r,r,20,r,r,B.aQ,r,r,!0,r,r,r,r,r,r,r,r)),r),r,r,r,r,new A.aU(10,5,0,5),r))],o),B.dh,B.B,B.D),r,r,60,r,new A.aU(10,5,10,5),q.a.a/m*0.99)}else{n.toString
+return A.bm(r,A.c0(A.a([A.a9T(A.bm(r,new A.Cm(new A.a40(s,a,b),r,r,r,r,B.J,r,!1,r,A.c2(a,A.bR(r,r,B.P,r,r,r,r,r,r,r,r,20,r,r,B.aQ,r,r,!0,r,r,r,r,r,r,r,r)),r),r,r,r,r,new A.aU(10,5,0,5),r))],o),B.dh,B.B,B.D),r,r,60,r,new A.aU(10,5,10,5),q.a.a/m*0.99)}else{n.toString
 q=A.cm(n,r,p).w
 m=m.a
-p=A.c2(a,A.bR(r,r,B.i,r,r,r,r,r,r,r,r,20,r,r,B.aQ,r,r,!0,r,r,r,r,r,r,r,r))
-return A.bm(r,A.c0(A.a([A.a9T(A.bm(r,new A.Aa(new A.a41(s,a,b),r,r,r,A.a6r(r,r,r,r,r,r,r,r,r,r,r,r,r,B.N,r,r,r,r,r,r),B.J,r,!1,r,p,r),r,r,r,r,new A.aU(10,5,0,5),r))],o),B.dh,B.B,B.D),r,r,60,r,new A.aU(10,5,10,5),q.a.a/m*0.99)}}}
+p=A.c2(a,A.bR(r,r,A.a1(255,103,152,175),r,r,r,r,r,r,r,r,20,r,r,B.aQ,r,r,!0,r,r,r,r,r,r,r,r))
+return A.bm(r,A.c0(A.a([A.a9T(A.bm(r,new A.Aa(new A.a41(s,a,b),r,r,r,A.a6r(r,r,r,r,r,r,r,r,r,r,r,r,r,A.a1(255,255,255,255),r,r,r,r,r,r),B.J,r,!1,r,p,r),r,r,r,r,new A.aU(10,5,0,5),r))],o),B.dh,B.B,B.D),r,r,60,r,new A.aU(10,5,10,5),q.a.a/m*0.99)}}}
 A.a4_.prototype={
 $0(){var s=this.a
 s.f=this.b
@@ -62637,7 +62637,7 @@ B.wM=new A.P(4278239141)
 B.wS=new A.P(4280361249)
 B.iF=new A.P(4281348144)
 B.eV=new A.P(4282532418)
-B.N=new A.P(4284249765)
+B.P=new A.P(4284249765)
 B.eW=new A.P(4284572001)
 B.iH=new A.P(4284809178)
 B.wY=new A.P(4288585374)
@@ -62895,9 +62895,9 @@ B.zw=A.a(s([B.f5,B.xX,B.xY,B.t,B.aA,B.xZ,B.aQ,B.y_,B.iW]),A.a0("v<eQ>"))
 B.ai=new A.uq(0,"upstream")
 B.E=new A.uq(1,"downstream")
 B.zE=A.a(s([B.ai,B.E]),A.a0("v<uq>"))
-B.P=new A.k1(0,"rtl")
+B.O=new A.k1(0,"rtl")
 B.n=new A.k1(1,"ltr")
-B.jf=A.a(s([B.P,B.n]),A.a0("v<k1>"))
+B.jf=A.a(s([B.O,B.n]),A.a0("v<k1>"))
 B.us=new A.op(0,"topLeft")
 B.uv=new A.op(3,"bottomRight")
 B.KN=new A.iP(B.us,B.uv)
@@ -63918,7 +63918,7 @@ B.ox=new A.Ck(0,"portrait")
 B.oy=new A.Ck(1,"landscape")
 B.CY=new A.rU(null)
 B.as=new A.CH(0,"fill")
-B.O=new A.CH(1,"stroke")
+B.N=new A.CH(1,"stroke")
 B.CZ=new A.jN(1/0)
 B.aT=new A.CJ(0,"nonZero")
 B.cH=new A.CJ(1,"evenOdd")
@@ -64494,25 +64494,25 @@ B.Kd=A.b2("aid")
 B.Ke=new A.F6(0,"scope")
 B.uo=new A.F6(1,"previouslyFocusedChild")
 B.Kf=new A.bS(11264,55297,B.n,t.M)
-B.Kg=new A.bS(1425,1775,B.P,t.M)
-B.Kh=new A.bS(1786,2303,B.P,t.M)
+B.Kg=new A.bS(1425,1775,B.O,t.M)
+B.Kh=new A.bS(1786,2303,B.O,t.M)
 B.Ki=new A.bS(192,214,B.n,t.M)
 B.Kj=new A.bS(216,246,B.n,t.M)
 B.Kk=new A.bS(2304,8191,B.n,t.M)
 B.Kl=new A.bS(248,696,B.n,t.M)
-B.Km=new A.bS(55298,55299,B.P,t.M)
+B.Km=new A.bS(55298,55299,B.O,t.M)
 B.Kn=new A.bS(55300,55353,B.n,t.M)
-B.Ko=new A.bS(55354,55355,B.P,t.M)
+B.Ko=new A.bS(55354,55355,B.O,t.M)
 B.Kp=new A.bS(55356,56319,B.n,t.M)
 B.Kq=new A.bS(63744,64284,B.n,t.M)
-B.Kr=new A.bS(64285,65023,B.P,t.M)
+B.Kr=new A.bS(64285,65023,B.O,t.M)
 B.Ks=new A.bS(65024,65135,B.n,t.M)
-B.Kt=new A.bS(65136,65276,B.P,t.M)
+B.Kt=new A.bS(65136,65276,B.O,t.M)
 B.Ku=new A.bS(65277,65535,B.n,t.M)
 B.Kv=new A.bS(65,90,B.n,t.M)
 B.Kw=new A.bS(768,1424,B.n,t.M)
 B.Kx=new A.bS(8206,8206,B.n,t.M)
-B.Ky=new A.bS(8207,8207,B.P,t.M)
+B.Ky=new A.bS(8207,8207,B.O,t.M)
 B.Kz=new A.bS(97,122,B.n,t.M)
 B.c_=new A.ZL(!1)
 B.up=new A.lX(B.h,0,B.o,B.h)
