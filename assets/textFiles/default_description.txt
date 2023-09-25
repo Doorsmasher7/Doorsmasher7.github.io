@@ -1,8 +1,0 @@
-This is where I will  fill  in  the description  for the  app  itself, it  will need  to be  expanded  such that it fully encompasses the basis  of what was  done during the course of  the project.
-
-
-
-This  is  a new line to test with.
-
-
-I added a new line to the file.
