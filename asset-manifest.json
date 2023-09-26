@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.aa086b10.css",
-    "main.js": "/static/js/main.0f8dff97.js",
+    "main.css": "/static/css/main.065e7a52.css",
+    "main.js": "/static/js/main.aacbf415.js",
     "static/js/787.d041d7b1.chunk.js": "/static/js/787.d041d7b1.chunk.js",
     "static/media/Zine_redone_16.jpg": "/static/media/Zine_redone_16.e1ef40974039241e7b39.jpg",
     "static/media/Zine_redone_10.jpg": "/static/media/Zine_redone_10.25f5975485921872d72f.jpg",
@@ -45,12 +45,12 @@
     "static/media/Comingsoon.png": "/static/media/Comingsoon.d92e5acc1a9396843b4b.png",
     "static/media/reactIcon.webp": "/static/media/reactIcon.0c40a476122ed4d1e382.webp",
     "index.html": "/index.html",
-    "main.aa086b10.css.map": "/static/css/main.aa086b10.css.map",
-    "main.0f8dff97.js.map": "/static/js/main.0f8dff97.js.map",
+    "main.065e7a52.css.map": "/static/css/main.065e7a52.css.map",
+    "main.aacbf415.js.map": "/static/js/main.aacbf415.js.map",
     "787.d041d7b1.chunk.js.map": "/static/js/787.d041d7b1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa086b10.css",
-    "static/js/main.0f8dff97.js"
+    "static/css/main.065e7a52.css",
+    "static/js/main.aacbf415.js"
   ]
 }
