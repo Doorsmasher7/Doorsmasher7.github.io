@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ad0a5820.css",
-    "main.js": "/static/js/main.99e7ecc9.js",
+    "main.js": "/static/js/main.c62c0350.js",
     "static/js/787.d041d7b1.chunk.js": "/static/js/787.d041d7b1.chunk.js",
     "static/media/Zine_redone_16.jpg": "/static/media/Zine_redone_16.e1ef40974039241e7b39.jpg",
     "static/media/Zine_redone_10.jpg": "/static/media/Zine_redone_10.25f5975485921872d72f.jpg",
@@ -19,7 +19,7 @@
     "static/media/Zine_redone_8.jpg": "/static/media/Zine_redone_8.148da44af0b945011fec.jpg",
     "static/media/Zine_redone_12.jpg": "/static/media/Zine_redone_12.c34eecbe4a322f29c3c6.jpg",
     "static/media/Zine_redone_13.jpg": "/static/media/Zine_redone_13.d16385cd9623d523bc89.jpg",
-    "static/media/MyPortfolioBackground.png": "/static/media/MyPortfolioBackground.b0a5fab49540780260c5.png",
+    "static/media/MyPortfolioBackground.png": "/static/media/MyPortfolioBackground.1c8e487128ecb2dd68a0.png",
     "static/media/experienceDesign_imageanalysisMTG.jpg": "/static/media/experienceDesign_imageanalysisMTG.d5e34eeec8d3036e4090.jpg",
     "static/media/mazeapp_UML.jpg": "/static/media/mazeapp_UML.6174800709211f2dc79c.jpg",
     "static/media/experienceDesign_imageanalysis.jpg": "/static/media/experienceDesign_imageanalysis.be46c8ca2ecd1c29b1d5.jpg",
@@ -47,11 +47,11 @@
     "static/media/reactIcon.webp": "/static/media/reactIcon.0c40a476122ed4d1e382.webp",
     "index.html": "/index.html",
     "main.ad0a5820.css.map": "/static/css/main.ad0a5820.css.map",
-    "main.99e7ecc9.js.map": "/static/js/main.99e7ecc9.js.map",
+    "main.c62c0350.js.map": "/static/js/main.c62c0350.js.map",
     "787.d041d7b1.chunk.js.map": "/static/js/787.d041d7b1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ad0a5820.css",
-    "static/js/main.99e7ecc9.js"
+    "static/js/main.c62c0350.js"
   ]
 }
